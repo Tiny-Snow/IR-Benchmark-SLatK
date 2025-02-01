@@ -21,7 +21,7 @@ conda activate itemrec
 The code is organized as follows:
 
 ```
-SLatK-ICLR-code
+IR-Benchmark-SLatK
 │   README.md                           # This file
 │   environment.yml                     # Conda environment file
 |   run_nni.py                          # NNI hyperparameter tuning script
