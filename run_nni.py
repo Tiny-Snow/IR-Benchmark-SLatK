@@ -124,7 +124,7 @@ def parse_args() -> argparse.Namespace:
 def main():
     args = parse_args()
 
-    # TODO: hide the personal information
+    # TODO: `/path/to/your/` must be replaced with the actual paths
     save_dir = f"/path/to/your/logs/{args.dataset}/{args.model}/{args.optim}"
     if not args.ood:
         dataset_path = f"/path/to/your/data/{args.dataset}/proc"
